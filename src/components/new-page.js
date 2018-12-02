@@ -76,20 +76,20 @@ const NewPage = () => {
   return (
     <Container>
       <Tabs>
-        <Tab>BTC</Tab>
-        <Tab>ETH</Tab>
-        <Tab>LTH</Tab>
+        <Tab>1</Tab>
+        <Tab>2</Tab>
+        <Tab>3</Tab>
       </Tabs>
       <Status>
         <p>SENDING</p>
         <p>ICON</p>
-        <p>BTC</p>
+        <p>COIN</p>
       </Status>
       <Tabs>
-        <Tab className='lg'>Bakkt Users</Tab>
+        <Tab className='lg'>Internal Users</Tab>
         <Tab className='lg'>External</Tab>
       </Tabs>
-      <Input placeholder="Enter BTC Address" />
+      <Input placeholder="Enter Address" />
       <Note>
         Note: Risk associated with sending to external addresses on the chain is higher
       </Note>
